@@ -7,7 +7,7 @@ export const SongContextState = ({ children }) => {
   if(document.domain === "localhost"){
     __URL__ = "http://localhost:1337"
   }else{
-    __URL__ = "https://music-player-app-backend-yq0c.onrender.com"
+    __URL__ = "https://music-app-omega-six-69.vercel.app/"
   }
   const audio = new Audio();
   const song = {
